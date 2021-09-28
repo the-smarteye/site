@@ -4,14 +4,17 @@
 
   - `git clone link_repositorio.git`
 
+<hr />
+
 - Criar uma nova branch e acessá-la:
 
   - `git branch nome_branch` (criando a branch)
   - `git checkout nome_branch` (acessando a branch)
   - `git checkout -b nome_branch` (criando e já acessando a branch)
+ 
+<hr />
 
-- Adicionar arquivos para comitar:
-  - No Git **versão 2.x**:
+- Adicionar arquivos para comitar (no Git **versão 2.x**):
 
 |   **Comando**   | **Novos** | **Modificados** | **Removidos** | **Explicação**                                                        |
 | :-------------: | :-------: | :-------------: | :-----------: | --------------------------------------------------------------------- |
@@ -19,15 +22,21 @@
 |   `git add .`   |     X     |        X        |       X       | Coloca todos arquivos (novos, modificados e removidos) no index/stage |
 |  `git add -u`   |     -     |        X        |       X       | Coloca no Stage apenas arquivos modificados e removidos               |
 
+<hr />
+
 - Comitar arquivo(s):
 
   - `git commit`
   - `git commit -m "mensagem"`
 
+<hr />
+
 - Enviar arquivo(s) para o repositório remoto:
 
   - `git push` (quando a branch já está linkada com o repositório remoto)
   - `git push --set-upstream origin nome_branch` (linkando a branch a seu respectivo remoto)
+
+<hr />
 
 - Como contribuir no projeto:
 
@@ -36,6 +45,8 @@
 3. Faça commit da sua feature: `git commit -m "feature: My new feature"`
 4. Envie as suas alterações: `git push origin my-feature`
 5. Solicite uma Pull Request para o diretório original.
+
+<hr />
 
 - Outros comandos bastante utilizados:
 
