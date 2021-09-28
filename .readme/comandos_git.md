@@ -1,16 +1,16 @@
 # Comandos Básicos no Git
 
-- Clonar repositório remoto, via HTTPS, para local
+- Clonar repositório remoto, via HTTPS, para local:
 
   - `git clone link_repositorio.git`
 
-- Criar uma nova branch e acessá-la
+- Criar uma nova branch e acessá-la:
 
   - `git branch nome_branch` (criando a branch)
   - `git checkout nome_branch` (acessando a branch)
   - `git checkout -b nome_branch` (criando e já acessando a branch)
 
-- Adicionar arquivos para comitar
+- Adicionar arquivos para comitar:
   - No Git **versão 2.x**:
 
 |   **Comando**   | **Novos** | **Modificados** | **Removidos** | **Explicação**                                                        |
@@ -19,12 +19,12 @@
 |   `git add .`   |     X     |        X        |       X       | Coloca todos arquivos (novos, modificados e removidos) no index/stage |
 |  `git add -u`   |     -     |        X        |       X       | Coloca no Stage apenas arquivos modificados e removidos               |
 
-- Comitar arquivo(s)
+- Comitar arquivo(s):
 
   - `git commit`
   - `git commit -m "mensagem"`
 
-- Enviar arquivo(s) para o repositório remoto
+- Enviar arquivo(s) para o repositório remoto:
 
   - `git push` (quando a branch já está linkada com o repositório remoto)
   - `git push --set-upstream origin nome_branch` (linkando a branch a seu respectivo remoto)
@@ -37,7 +37,7 @@
 4. Envie as suas alterações: `git push origin my-feature`
 5. Solicite uma Pull Request para o diretório original.
 
-- Outros comandos bastante utilizados
+- Outros comandos bastante utilizados:
 
   - `git status` (verificando o status do repositório)
   - `git checkout HEAD~1` (A cada execução deste comando mudará o repositório para um commit atrás)
