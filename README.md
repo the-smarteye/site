@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".readme/imagens/gerais/the-smarteye.png" alt="The SmartEye" title="The SmartEye" style="vertical-align:top; margin:6px 4px;" width="50%">
+  <img src=".readme/imagens/the-smarteye.png" alt="The SmartEye" title="The SmartEye" style="vertical-align:top; margin:6px 4px;" width="50%">
 </p><br />
 
 # Site The SmartEye
