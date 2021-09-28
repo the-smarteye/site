@@ -12,7 +12,7 @@
   <a href="#features"> :newspaper: Features</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#requisitos">:pushpin: Pré-requisitos</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#tecnologias">:computer: Tecnologias</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#rodando"> :computer: Passo a Passo</a>
+  <a href="#rodando"> :arrow_forward: Passo a Passo</a>
 </p>
 
 <br />
@@ -72,7 +72,7 @@
 <br />
 
 <div id="rodando" align="center">
-   <h2> :computer: Passo a Passo</h2>
+   <h2> :arrow_forward: Passo a Passo</h2>
 </div>
 
 ```bash
