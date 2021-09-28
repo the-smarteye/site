@@ -40,7 +40,7 @@
     <h2> :pushpin: Pré-requisitos</h2>
 </div>
 
-- [Git](https://git-scm.com), veja alguns comandos em: [Comandos Git](./readme/comandos_git.md)
+- [Git](https://git-scm.com), veja alguns comandos em: [Comandos Git](.readme/comandos_git.md)
 - [NodeJs](https://nodejs.org/)
 - [Npm](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
 - [ReactJs](https://reactjs.org/)
