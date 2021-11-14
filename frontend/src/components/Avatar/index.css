@@ -1,0 +1,26 @@
+.avatar{
+  max-width: max-content;
+  min-width: 300px;
+  max-height: max-content;
+  min-height: 400px;
+  margin: 30px;
+  border: 1px solid #CBEAED;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.avatar .__img{
+  margin-top: 25%;
+  width: 186px;
+  height: 186px;
+}
+
+.avatar .__name{
+  font-family: Nunito, sans-serif;
+  font-weight: bold;
+}
+
+.avatar .__description{
+  font-family: Roboto, sans-serif;
+  font-size: large;
+}
