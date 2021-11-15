@@ -1,0 +1,89 @@
+.header {
+	display: flex;
+	width: 100%;
+	height: 1024px;
+}
+
+.header .cabecalho {
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 125px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: all .5s;
+}
+
+.header .cabecalho .logo {
+	margin-left: 20px;
+	width: 258px;
+	-webkit-filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
+	filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
+}
+
+.header .cabecalho ul {
+
+	list-style: none;
+	display: flex;
+	margin-right: 20px;
+}
+
+.header .cabecalho ul li {
+	font-size: 48px;
+	font-family: Nunito, sans-serif;
+	line-height: 65px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-left: 28px;
+	color: #FFF;
+
+}
+
+.header .cabecalho ul li:hover {
+	cursor: pointer;
+	transform: translateY(-2px);
+}
+
+.header .cabecalho ul li a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.header .background {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.header .text {
+	position: absolute;
+	bottom: -185px;
+	width: 1108px;
+	height: 256px;
+	margin-left: 60px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.header .text span {
+	font-family: Nunito, sans-serif;
+	font-size: 2.25rem;
+	color: #FFF;
+}
+
+.header .text button {
+	width: 235px;
+	height: 56px;
+	border-radius: 15px;
+	background:  #006A71;
+	border: 0;
+	font-family: Nunito, sans-serif;
+	font-size: 30px;
+	color: #FFF;
+}
+
+.header .text button:hover {
+	cursor: pointer;
+	opacity: 0.9;
+}

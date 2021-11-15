@@ -2,6 +2,10 @@ import "./App.css";
 import Card from "./components/Card";
 import Avatar from "./components/Avatar";
 import Footer from "./components/Footer";
+import Menu from "./components/Header";
+import About from "./components/About";
+import Contacts from "./components/Contacts";
+import BackToStart from "./components/BackToStart";
 import setup from "./assets/undraw_Website_setup_re_d4y9.svg";
 import circuit from "./assets/undraw_circuit_board_4c4d.svg";
 import manRed from "./assets/manRed.png";
@@ -15,6 +19,8 @@ function App() {
   return (
     <>
       <div className="App">
+        <Menu />
+        <About />
         <div className="__line">
           <Card
             imgA={setup}
@@ -48,8 +54,10 @@ function App() {
           <Avatar avatar={manGreen} name="Membro 1" description="Lorem Ipsum" />
           <Avatar avatar={womanRed} name="Membro 1" description="Lorem Ipsum" />
         </div>
+        <Contacts />
+        <BackToStart />
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
