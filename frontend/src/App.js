@@ -12,6 +12,7 @@ import manRed from "./assets/manRed.png";
 import womanPink from "./assets/womanPink.png";
 import manGreen from "./assets/manGreen.png";
 import womanRed from "./assets/womanRed.png";
+import setas from "./assets/Setas.png";
 import data from "./assets/undraw_Data_trends_re_2cdy.svg";
 import collaboration from "./assets/undraw_real_time_collaboration_c62i.svg";
 
@@ -21,6 +22,7 @@ function App() {
       <div className="App">
         <Menu />
         <About />
+        <h1>Serviços</h1>
         <div className="__line">
           <Card
             imgA={setup}
@@ -44,6 +46,13 @@ function App() {
           Média de pessoas por hora durante o dia."
           />
         </div>
+        <button className="_button">Mais</button>
+        <h1>Equipe</h1>
+        <p className="_p">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation.
+        </p>
         <div className="__line">
           <Avatar avatar={manRed} name="Membro 1" description="Lorem Ipsum" />
           <Avatar
@@ -54,6 +63,18 @@ function App() {
           <Avatar avatar={manGreen} name="Membro 1" description="Lorem Ipsum" />
           <Avatar avatar={womanRed} name="Membro 1" description="Lorem Ipsum" />
         </div>
+        <button
+          style={{
+            border: "none",
+            backgroundColor: "transparent",
+            width: 124,
+            cursor: "pointer",
+            marginBottom:120,
+            marginTop:30
+          }}
+        >
+          <img src={setas} alt="" />
+        </button>
         <Contacts />
         <BackToStart />
       </div>
