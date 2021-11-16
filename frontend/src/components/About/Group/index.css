@@ -26,7 +26,7 @@
 .group .content {
 	display: flex;
 	flex-direction: column;
-	
+	align-items: flex-start;
 	width: 390px;
 	height: 100%;
 }
@@ -39,7 +39,7 @@
 
 .group .content .text {
 	height: 63px;
-	
+	text-align: left;
 	font-family: Roboto, sans-serif;
 	font-size: 18px;
 	line-height: 21px;
