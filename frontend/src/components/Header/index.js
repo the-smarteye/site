@@ -10,11 +10,9 @@ const Menu = () => {
 			if (window.scrollY > 0) {
 				cabecalho.style.backgroundColor = "#006A71"
 				cabecalho.style.height = "100px"
-				cabecalho.style.boxShadow = "1px 1px 2px"
 			} else {
 				cabecalho.style.backgroundColor = "transparent"
 				cabecalho.style.height = "125px"
-				cabecalho.style.boxShadow = "0px 0px 0px"
 			}
 
 		}
