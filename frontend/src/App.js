@@ -23,7 +23,7 @@ function App() {
         <Menu />
         <About />
         <h1>Serviços</h1>
-        <div className="__line">
+        <div className="__line" id="services">
           <Card
             imgA={setup}
             imgB={circuit}
@@ -48,7 +48,7 @@ function App() {
         </div>
         <button className="_button">Mais</button>
         <h1>Equipe</h1>
-        <p className="_p">
+        <p className="_p" id="members">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation.
@@ -69,8 +69,8 @@ function App() {
             backgroundColor: "transparent",
             width: 124,
             cursor: "pointer",
-            marginBottom:120,
-            marginTop:30
+            marginBottom: 120,
+            marginTop: 30
           }}
         >
           <img src={setas} alt="" />

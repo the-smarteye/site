@@ -23,24 +23,28 @@ const About = () => {
 				</span>
 			</div>
 			<div className="groups">
-				<Group
-					icon={distance} title="Controle de Espaços"
-					text="Em meio à pandemia de COVID-19, evitar aglomerações é a melhor maneira de prevenção." />
-				<Group
-					icon={knowledge}
-					title="Gestão Inteligente"
-					text="Uso de tecnologias de cidades inteligentes voltado para tomada de decisão 
+				<div>
+					<Group
+						icon={distance} title="Controle de Espaços"
+						text="Em meio à pandemia de COVID-19, evitar aglomerações é a melhor maneira de prevenção." />
+					<Group
+						icon={knowledge}
+						title="Gestão Inteligente"
+						text="Uso de tecnologias de cidades inteligentes voltado para tomada de decisão 
 					em mobilidade urbana pode transformar esse cenário."
-				/>
-				<Group
-					icon={smartCity}
-					title="Plataforma RT"
-					text="Tecnologias de Cidades Inteligentes são úteis dentro e fora de crises como essa." />
-				<Group
-					icon={safety}
-					title="Confiabilidade"
-					text="Acesso fácil, rápido com segurança, confiabilidade e integridade."
-				/>
+					/>
+				</div>
+				<div>
+					<Group
+						icon={smartCity}
+						title="Plataforma RT"
+						text="Tecnologias de Cidades Inteligentes são úteis dentro e fora de crises como essa." />
+					<Group
+						icon={safety}
+						title="Confiabilidade"
+						text="Acesso fácil, rápido com segurança, confiabilidade e integridade."
+					/>
+				</div>
 			</div>
 		</div>
 	);

@@ -26,8 +26,8 @@ const Menu = () => {
 				<img src={logo} alt="" className="logo" />
 				<ul className="options">
 					<li><a href="#about">Sobre</a></li>
-					<li><a href="#">Serviços</a></li>
-					<li><a href="#">Equipe</a></li>
+					<li><a href="#services">Serviços</a></li>
+					<li><a href="#members">Equipe</a></li>
 					<li><a href="#contacts">Contatos</a></li>
 				</ul>
 			</div>
