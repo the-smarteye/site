@@ -57,13 +57,14 @@
 
 .header .text {
 	position: absolute;
-	bottom: -185px;
+	bottom: 35%;
 	width: 1108px;
 	height: 256px;
 	margin-left: 60px;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
+	text-align: left;
 }
 
 .header .text span {
