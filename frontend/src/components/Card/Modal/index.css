@@ -72,6 +72,15 @@
   margin: 30px;
 }
 
+.modal .body .imgB{
+  position: relative;
+  bottom:60px;
+  left: 110px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .modal .sticks{
   display: flex;
   flex-direction: column;

@@ -13,7 +13,7 @@ const Card = (props) => {
         <div className="__body">
           <h2 className="__title">{props.title}</h2>
           <p className="__description">{props.description}</p>
-          <Modal className="__modal" title={props.title} img={props.imgA}>
+          <Modal className="__modal" title={props.title} imgA={props.imgA} imgB={props.imgB}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -34,7 +34,7 @@ const Card = (props) => {
         <div className="__body">
           <h2 className="__title">{props.title}</h2>
           <p className="__description">{props.description}</p>
-          <Modal className="__modal" title={props.title} img={props.imgA}>
+          <Modal className="__modal" title={props.title} imgA={props.imgA}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
