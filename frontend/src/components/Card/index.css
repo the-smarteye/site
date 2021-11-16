@@ -50,19 +50,3 @@
   font-size: large;
   text-align: left;
 }
-
-.card .__body .__button{
-  border: none;
-  background-color: #006A71;
-  font-family: Roboto, sans-serif;
-  font-weight: bold;
-  font-size: large;
-  color: white;
-  cursor: pointer;
-  width: 150px;
-  height: 38px;
-  border-radius: 15px;
-  position: absolute;
-  bottom: 6%;
-  right: 30%;
-}
