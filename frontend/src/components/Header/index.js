@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import "./index.css";
-import logo from "../../assets/logoFooter.png";
+import logo from "../../assets/logoHeader.png";
 import backImage from "../../assets/KeepDistant.jpg"
 
 const Menu = () => {
@@ -9,7 +9,7 @@ const Menu = () => {
 		window.onscroll = () => {
 			if (window.scrollY > 0) {
 				cabecalho.style.backgroundColor = "#006A71"
-				cabecalho.style.height = "100px"
+				cabecalho.style.height = "125px"
 			} else {
 				cabecalho.style.backgroundColor = "transparent"
 				cabecalho.style.height = "125px"
