@@ -8,10 +8,11 @@ import Contacts from "./components/Contacts";
 import BackToStart from "./components/BackToStart";
 import setup from "./assets/undraw_Website_setup_re_d4y9.svg";
 import circuit from "./assets/undraw_circuit_board_4c4d.svg";
-import manRed from "./assets/manRed.png";
-import womanPink from "./assets/womanPink.png";
-import manGreen from "./assets/manGreen.png";
-import womanRed from "./assets/womanRed.png";
+import VictoriaIris from "./assets/Victoria Íris.jpg";
+import LeonardoCasillo from "./assets/Leonardo Casillo.jpg";
+import LeonardoFranca from "./assets/Leonardo França.jpg";
+import MiltonMendes from "./assets/Milton Mendes.jpg";
+import RogerioFernandes from "./assets/Rogério Fernandes.jpg";
 import setas from "./assets/Setas.png";
 import data from "./assets/undraw_Data_trends_re_2cdy.svg";
 import collaboration from "./assets/undraw_real_time_collaboration_c62i.svg";
@@ -54,14 +55,31 @@ function App() {
           minim veniam, quis nostrud exercitation.
         </p>
         <div className="__line">
-          <Avatar avatar={manRed} name="Membro 1" description="Lorem Ipsum" />
           <Avatar
-            avatar={womanPink}
-            name="Membro 1"
+            avatar={VictoriaIris}
+            name="Victoria Íris"
             description="Lorem Ipsum"
           />
-          <Avatar avatar={manGreen} name="Membro 1" description="Lorem Ipsum" />
-          <Avatar avatar={womanRed} name="Membro 1" description="Lorem Ipsum" />
+          <Avatar
+            avatar={LeonardoCasillo}
+            name="Leonardo Casillo"
+            description="Lorem Ipsum"
+          />
+          <Avatar
+            avatar={LeonardoFranca}
+            name="Leonardo França"
+            description="Lorem Ipsum"
+          />
+          <Avatar
+            avatar={MiltonMendes}
+            name="Milton Mendes"
+            description="Lorem Ipsum"
+          />
+          <Avatar
+            avatar={RogerioFernandes}
+            name="Rogério Fernandes"
+            description="Lorem Ipsum"
+          />
         </div>
         <button
           style={{
@@ -70,7 +88,7 @@ function App() {
             width: 124,
             cursor: "pointer",
             marginBottom: 120,
-            marginTop: 30
+            marginTop: 30,
           }}
         >
           <img src={setas} alt="" />
