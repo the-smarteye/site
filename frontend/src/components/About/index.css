@@ -2,7 +2,6 @@
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	height: 1024px;
 }
 
 .about h1 {
@@ -15,6 +14,7 @@
 .about .info {
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	align-items: center;
 	margin-top: 85px;
 	margin-left: 72px;
@@ -26,9 +26,10 @@
 }
 
 .about .info .text {
+	display: flex;
+	align-items: center;
 	width: 637px;
-	height: 224px;
-	
+	height: 300px;
 	font-family: Roboto, sans-serif;
 	line-height: 28px;
 	font-size: 24px;
@@ -38,12 +39,16 @@
 .about .groups {
 	display: flex;
 	flex-direction: column;
-	margin-top: 79px;
+	margin-top: 30px;
 	align-items: center;
 	width: 100%;
-	height: 111px;
+	height: auto;
+	margin-bottom: 50px;
 }
 
-.about .groups div {
+.about .groups > div {
+	justify-content: center;
+	width: 100%;
 	display: flex;
+	flex-wrap: wrap;
 }
