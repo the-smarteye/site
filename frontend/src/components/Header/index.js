@@ -31,8 +31,8 @@ const Menu = () => {
 			</div>
 			<img src={backImage} alt="" className="background" />
 			<div className="text">
-				<span>Controle de aglomerações em ambientes da unidade de saúde;
-					Monitoramento em tempo real distanciamento e fluxo de pessoas;
+				<span>Controle de aglomerações em ambientes da unidade de saúde;<br/>
+					Monitoramento em tempo real distanciamento e fluxo de pessoas;<br/>
 					Sistema de gestão ativos e controle de recursos.</span>
 				<button>Veja Mais</button>
 			</div>
