@@ -52,3 +52,44 @@
 	display: flex;
 	flex-wrap: wrap;
 }
+
+/* ##### media querys ##### */
+@media (max-width: 800px) { 
+	.about h1 {
+		font-size: 35px;
+	}
+
+	.about .info {
+		margin-top: 30px;
+		margin-left: 0px;
+	}
+	
+	.about .info .blured {
+		width: 300px;
+		border-radius: 15px;
+	}
+	
+	.about .info .text {
+		width: 300px;
+		height: 250px;
+		line-height: 20px;
+		font-size: 12px;
+	}
+
+	
+.about .groups {
+	margin-top: 0px;
+	margin-left: 30px;
+	align-items: center;
+	width: 100%;
+	height: auto;
+}
+
+.about .groups > div {
+	justify-content: center;
+	width: 300px;
+	display: flex;
+	flex-wrap: wrap;
+}
+	
+}

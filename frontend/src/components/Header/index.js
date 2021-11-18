@@ -9,10 +9,8 @@ const Menu = () => {
 		window.onscroll = () => {
 			if (window.scrollY > 0) {
 				cabecalho.style.backgroundColor = "#006A71"
-				cabecalho.style.height = "125px"
 			} else {
 				cabecalho.style.backgroundColor = "transparent"
-				cabecalho.style.height = "125px"
 			}
 
 		}
@@ -34,7 +32,6 @@ const Menu = () => {
 				<span>Controle de aglomerações em ambientes da unidade de saúde;<br/>
 					Monitoramento em tempo real distanciamento e fluxo de pessoas;<br/>
 					Sistema de gestão ativos e controle de recursos.</span>
-				<button>Veja Mais</button>
 			</div>
 		</div>
 	);

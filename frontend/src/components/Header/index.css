@@ -72,46 +72,27 @@
 	color: #FFF;
 }
 
-.header .text button {
-	width: 235px;
-	height: 56px;
-	border-radius: 15px;
-	background:  #006A71;
-	border: 0;
-	font-family: Nunito, sans-serif;
-	font-size: 30px;
-	color: #FFF;
-}
+/* ##### media querys ##### */
+@media (max-width: 800px) { 
+	.header .cabecalho {
+		height: 100px;
+	}
 
-.header .text button:hover {
-	cursor: pointer;
-	opacity: 0.9;
-}
-
-@media (max-width: 750px) { 
 	.header .cabecalho .logo {
-		width: 150px;
+		width: 100px;
 	}
 
 	.header .cabecalho ul li {
-		font-size: 20px;
-
+		font-size: 10px;
 	}
 
 	.header .text {
-		top: 300px;
+		top: 200px;
+		left: 20px;
 		height: 156px;
 	}
 	
 	.header .text span {
-		font-size: 20px;
-
+		font-size: 10px;
 	}
-	
-	.header .text button {
-		width: 150px;
-		height: 35.74px;
-		font-size: 15px;
-	}
-	
  }
