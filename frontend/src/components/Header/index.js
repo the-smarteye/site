@@ -19,22 +19,28 @@ const Menu = () => {
 	}, [])
 
 	return (
-		<div className="header" id="header">
-			<div className="cabecalho" id="cabecalho">
-				<img src={logo} alt="" className="logo" />
-				<ul className="options">
-					<li><a href="#about">Sobre</a></li>
-					<li><a href="#services">Serviços</a></li>
-					<li><a href="#members">Equipe</a></li>
-					<li><a href="#contacts">Contatos</a></li>
-				</ul>
-			</div>
-			<img src={backImage} alt="" className="background" />
-			<div className="text">
-				<span>Controle de aglomerações em ambientes da unidade de saúde;<br/>
-					Monitoramento em tempo real distanciamento e fluxo de pessoas;<br/>
-					Sistema de gestão ativos e controle de recursos.</span>
-				<button>Veja Mais</button>
+		<div className="col-12">
+			<div className="header" id="header">
+				<div className="cabecalho" id="cabecalho">
+					<img src={logo} alt="" className="logo" />
+					<ul className="options">
+						<li><a href="#about">Sobre</a></li>
+						<li><a href="#services">Serviços</a></li>
+						<li><a href="#members">Equipe</a></li>
+						<li><a href="#contacts">Contatos</a></li>
+					</ul>
+				</div>
+
+				<img src={backImage} alt="" className="background" />
+				
+				<div className="text">
+					<span>
+						Controle de aglomerações em ambientes da unidade de saúde;<br/>
+						Monitoramento em tempo real distanciamento e fluxo de pessoas;<br/>
+						Sistema de gestão ativos e controle de recursos.
+					</span><br />
+					<button><a href="#services">Veja Mais</a></button>
+				</div>
 			</div>
 		</div>
 	);

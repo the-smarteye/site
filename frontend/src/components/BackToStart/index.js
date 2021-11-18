@@ -4,11 +4,9 @@ import icone from "../../assets/arrow-up.png";
 const BackToStart = () => {
 
 	return (
-		<a href="#header">
 			<div className="backtostart" id="backtostart">
-				<img src={icone} alt="" />
+						<a href="#header"><img src={icone} alt="" /></a>
 			</div>
-		</a>
 	)
 }
 
