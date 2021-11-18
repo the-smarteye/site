@@ -12,9 +12,9 @@
 
 .modal-content {
   background-color: #fefefe;
-  margin: 10% auto;
+  margin: auto;
   width: 1024px;
-  height: 768px;
+  height: 688px;
 }
 
 .close {

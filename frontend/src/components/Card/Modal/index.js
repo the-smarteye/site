@@ -44,8 +44,8 @@ const Modal = (props) => {
                 <h2>Lorem Ipsum</h2>
               </div>
             </div>
-              <p style={{textAlign: "left",padding: 20,fontSize: "large",fontFamily: "Roboto",}}>{props.children}</p>
-              <p style={{textAlign: "left",padding: 20,fontSize: "large",fontFamily: "Roboto",}}>{props.children}</p>
+            <p style={{textAlign: "left",margin:"auto", marginLeft: 15, marginTop:15, fontSize: "large",fontFamily: "Roboto",}}>{props.children}</p>
+              <p style={{textAlign: "left",margin:"auto", marginLeft: 15, marginTop:15, fontSize: "large",fontFamily: "Roboto",}}>{props.children}</p>
           </div>
         </div>
       </>
@@ -82,8 +82,8 @@ const Modal = (props) => {
                 <h2>Lorem Ipsum</h2>
               </div>
             </div>
-              <p style={{textAlign: "left",padding: 20,fontSize: "large",fontFamily: "Roboto",}}>{props.children}</p>
-              <p style={{textAlign: "left",padding: 20,fontSize: "large",fontFamily: "Roboto",}}>{props.children}</p>
+              <p style={{textAlign: "left",margin:"auto", marginLeft: 15, marginTop:15, fontSize: "large",fontFamily: "Roboto",}}>{props.children}</p>
+              <p style={{textAlign: "left",margin:"auto", marginLeft: 15, marginTop:15, fontSize: "large",fontFamily: "Roboto",}}>{props.children}</p>
           </div>
         </div>
       </>
