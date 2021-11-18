@@ -23,14 +23,11 @@
 .header > .cabecalho > ul {
   list-style: none;
   display: flex;
-  margin-right: 12%;
 }
 
 .header > .cabecalho > ul > li {
-  font-size: 2em;
   font-family: Nunito, sans-serif;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin-left: 4%;
   color: #ffffff;
 }
 
@@ -48,12 +45,11 @@
   margin: 0;
   padding: 0;
   width: 100%;
+  filter: brightness(68%);
 }
 
 .header > .text {
   position: absolute;
-  top: 65%;
-  left: 5%;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -61,7 +57,6 @@
 
 .header > .text > span {
   font-family: Nunito, sans-serif;
-  font-size: 2.5em;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-align: left;
   color: #ffffff;
@@ -78,7 +73,6 @@
 .header > .text > button > a {
   text-decoration: none;
   font-family: Nunito, sans-serif;
-  font-size: 2em;
   color: #ffffff;
 }
 
@@ -87,31 +81,121 @@
   opacity: 0.9;
 }
 
-.header > .background {
-  filter: brightness(68%);
-}
+/* responsividade */
 
-@media (max-width: 750px) {
-  .header > .cabecalho > .logo {
-    width: 150px;
+@media only screen and (min-width: 2000px) {
+  /* for sumo sized (mac) screens */
+
+  .header > .cabecalho > ul {
+    margin-right: 15%;
   }
 
   .header > .cabecalho > ul > li {
-    font-size: 20px;
+    font-size: 2em;
+    margin-left: 4%;
   }
 
   .header > .text {
-    top: 300px;
-    height: 156px;
+    top: 65%;
+    left: 5%;
   }
 
   .header > .text > span {
-    font-size: 20px;
+    font-size: 2em;
   }
 
   .header > .text > button > a {
-    width: 150px;
-    height: 35.74px;
-    font-size: 15px;
+    font-size: 1.5em;
   }
+}
+
+@media only screen and (min-width: 1440px) {
+  /* styles for browsers larger than 1440px; */
+
+  .header > .cabecalho > ul {
+    margin-right: 15%;
+  }
+
+  .header > .cabecalho > ul > li {
+    font-size: 2em;
+    margin-left: 4%;
+  }
+
+  .header > .text {
+    top: 65%;
+    left: 5%;
+  }
+
+  .header > .text > span {
+    font-size: 2em;
+  }
+
+  .header > .text > button > a {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  /* styles for browsers larger than 960px; */
+
+  .header > .cabecalho > ul {
+    margin-right: 18%;
+  }
+
+  .header > .cabecalho > ul > li {
+    font-size: 2em;
+    margin-left: 4%;
+  }
+
+  .header > .text {
+    top: 50%;
+    left: 5%;
+  }
+
+  .header > .text > span {
+    font-size: 1.5em;
+  }
+
+  .header > .text > button > a {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (device-width: 768px) {
+  /* default iPad screens */
+
+  .header > .cabecalho > ul {
+    margin-right: 15%;
+  }
+
+  .header > .cabecalho > ul > li {
+    font-size: 1.5em;
+    margin-left: 4%;
+  }
+
+  .header > .text {
+    top: 40%;
+    left: 5%;
+  }
+
+  .header > .text > span {
+    font-size: 1.3em;
+  }
+
+  .header > .text > button > a {
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+}
+
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* For portrait layouts only */
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* For landscape layouts only */
 }
