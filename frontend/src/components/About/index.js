@@ -13,13 +13,10 @@ const About = () => {
 			<div className="info">
 				<img src={blured} alt="" className="blured" />
 				<span className="text">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-					nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-					pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-					culpa qui officia deserunt mollit anim id est laborum.
+					O SmartEye é uma solução integrada de hardware e software com o intuito de monitorar o ambiente no qual está inserido, através 
+					de sensores e Inteligência Artificial (IA), gerando relatórios inteligentes e transparência para as atividades que ali estão 
+					sendo executadas. O sensoriamento é baseado em sistemas embarcados usando Arduino, e isso faz com que um grande número de 
+					variáveis possa ser observado a depender do que for interessante para o usuário final.
 				</span>
 			</div>
 			<div className="groups">
