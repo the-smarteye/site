@@ -139,16 +139,16 @@
   /* styles for browsers larger than 960px; */
 
   .header > .cabecalho > ul {
-    margin-right: 18%;
+    margin-right: 16%;
   }
 
   .header > .cabecalho > ul > li {
-    font-size: 2em;
+    font-size: 1.7em;
     margin-left: 4%;
   }
 
   .header > .text {
-    top: 50%;
+    top: 60%;
     left: 5%;
   }
 
