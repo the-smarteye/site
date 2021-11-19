@@ -36,15 +36,15 @@ function App() {
           <Card
             imgA={data}
             title="Monitoramento e Recursos"
-            description="Atualmente o SmartEye pode contar com dados
-          de câmeras, sensores infra-vermelhos, sinais de celular e
-          redes de internet para contar pessoas."
+            description="A plataforma aceita entradas de diversos tipos de sensores para captura 
+              de dados do ambiente, entrada de dados manual e processamento de imagens de 
+              satélite."
           />
           <Card
             imgA={collaboration}
             title="Visualização em Tempo Real"
-            description="Visualização em tempo real da quantidade de pessoas
-          Média de pessoas por hora durante o dia."
+            description="Os dados são disponibilizados em dashboards para que o usuário tenha 
+              insights do mundo real."
           />
         </div>
         {/* <button className="_button">Mais</button> */}

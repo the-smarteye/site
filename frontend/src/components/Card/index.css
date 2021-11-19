@@ -1,52 +1,55 @@
-.card{
+.card {
   position: relative;
-  max-width: 400px;
+  width: 50vw;
   max-height: max-content;
-  min-height: 600px;
-  margin-top: 30px;
-  margin-bottom: 60px;
-  margin-left: 15px;
-  margin-right: 15px;
-  border: 1px solid #D3DE32;
+  min-height: 50vh;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  margin-left: 1%;
+  margin-right: 1%;
+  border: 1px solid #d3de32;
   border-radius: 20px;
+  text-align: center;
 }
 
-.card .__header{
-  background-color: #CBEAED;
+.card .__header {
+  background-color: #cbeaed;
   border-radius: 20px;
-  padding: 5px;
-  max-height:300px;
-  min-height: 300px;
+  padding: 2%;
+  max-height: 45vh;
+  min-height: 45vh;
 }
 
-.card .__imgA{
-  padding-top: 10px;
-  margin-left: 5px;
+.card .__imgA {
+  padding-top: 3%;
+  margin: auto;
+  width: 83%;
 }
-
-.card .__imgB{
+/* 
+.card .__imgB {
   position: relative;
   bottom: 20px;
   left: 110px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
-.card .__body{
-  margin: 10px;
+.card > .__body {
+  margin: 8% 5% 5% 5%;
+  text-align: center;
   text-align: center;
 }
 
-.card .__title{
-  margin-top: 30px;
-  margin-bottom: 30px;
+.card > .__body > .__title {
   font-family: Nunito, sans-serif;
   font-weight: bold;
+  font-size: 1.5em;
 }
 
-.card .__description{
+.card > .__body > .__description {
   font-family: Roboto, sans-serif;
-  font-size: large;
-  text-align: left;
+  font-size: 1em;
+  text-align: center;
+  margin: 8% 5% 5% 5%;
 }
