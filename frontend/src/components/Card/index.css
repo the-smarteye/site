@@ -1,8 +1,6 @@
 .card {
   position: relative;
-  width: 50vw;
   max-height: max-content;
-  min-height: 50vh;
   margin-top: 2%;
   margin-bottom: 5%;
   margin-left: 1%;
@@ -18,14 +16,12 @@
   border-radius: 20px;
   padding: 5%;
   margin: auto;
-  max-height: 30vh;
-  min-height: 30vh;
 }
 
 .card > .__imgA {
   margin-left: auto;
   margin-right: auto;
-  width: 83%;
+  width: 100% !important;
 }
 /* 
 .card .__imgB {
@@ -46,12 +42,10 @@
 .card > .__body > .__title {
   font-family: Nunito, sans-serif;
   font-weight: bold;
-  font-size: 1.5em;
 }
 
 .card > .__body > .__description {
   font-family: Roboto, sans-serif;
-  font-size: 1em;
   text-align: center;
   margin: 8% 5% 5% 5%;
 }
@@ -60,14 +54,68 @@
 
 @media only screen and (min-width: 2000px) {
   /* for sumo sized (mac) screens */
+
+  .card {
+    width: 50vw;
+    min-height: 50vh;
+  }
+
+  .card > .__header {
+    max-height: 30vh;
+    min-height: 30vh;
+  }
+
+  .card > .__body > .__title {
+    font-size: 1.5em;
+  }
+
+  .card > .__body > .__description {
+    font-size: 1em;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
   /* styles for browsers larger than 1440px; */
+
+  .card {
+    width: 40vw;
+    min-height: 40vh;
+  }
+
+  .card > .__header {
+    max-height: 30vh;
+    min-height: 30vh;
+  }
+
+  .card > .__body > .__title {
+    font-size: 1.5em;
+  }
+
+  .card > .__body > .__description {
+    font-size: 1em;
+  }
 }
 
 @media only screen and (min-width: 960px) {
   /* styles for browsers larger than 960px; */
+
+  .card {
+    width: 30vw;
+    min-height: 40vh;
+  }
+
+  .card > .__header {
+    max-height: 30vh;
+    min-height: 30vh;
+  }
+
+  .card > .__body > .__title {
+    font-size: 1.5em;
+  }
+
+  .card > .__body > .__description {
+    font-size: 1em;
+  }
 }
 
 @media only screen and (device-width: 768px) {
