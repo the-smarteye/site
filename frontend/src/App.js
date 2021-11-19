@@ -23,8 +23,8 @@ function App() {
       <div className="App">
         <Menu />
         <About />
-        <h1>Serviços</h1>
-        <div className="__line" id="services">
+        <h1 id="services">Serviços</h1>
+        <div className="__line">
           <Card
             imgA={setup}
             imgB={circuit}
@@ -48,8 +48,8 @@ function App() {
           />
         </div>
         {/* <button className="_button">Mais</button> */}
-        <h1>Equipe</h1>
-        <p className="_p" id="members">
+        <h1 id="members">Equipe</h1>
+        <p className="_p">
           O Smarteye conta com uma equipe com um amplo leque de expertises para suprir as 
           necessidades da proposta, entre elas inteligencia artificial, IoT , manejo ambiental e 
           desenvolvimento.
@@ -58,27 +58,27 @@ function App() {
           <Avatar
             avatar={VictoriaIris}
             name="Victoria Íris"
-            description="Lorem Ipsum"
+            description=""
           />
           <Avatar
             avatar={LeonardoCasillo}
             name="Leonardo Casillo"
-            description="Lorem Ipsum"
+            description=""
           />
           <Avatar
             avatar={LeonardoFranca}
             name="Leonardo França"
-            description="Lorem Ipsum"
+            description=""
           />
           <Avatar
             avatar={MiltonMendes}
             name="Milton Mendes"
-            description="Lorem Ipsum"
+            description=""
           />
           <Avatar
             avatar={RogerioFernandes}
             name="Rogério Fernandes"
-            description="Lorem Ipsum"
+            description=""
           />
         </div>
         {/* <button

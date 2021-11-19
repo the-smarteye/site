@@ -23,7 +23,7 @@ const About = () => {
 				<div>
 					<Group
 						icon={distance} title="Controle de Espaços"
-						text="Em meio à pandemia de COVID-19, evitar aglomerações é a melhor maneira de prevenção." />
+						text="Aglomerações é um plobrema no mundo moderno e procurar controlá-las é a melhor alternativa para diversas situações." />
 					<Group
 						icon={knowledge}
 						title="Gestão Inteligente"

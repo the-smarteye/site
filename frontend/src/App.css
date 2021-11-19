@@ -8,27 +8,27 @@
   src: url(./assets/fontes/Nunito/Nunito-Bold.ttf);
 }
 
-.App{
+.App {
   text-align: center;
 }
 
-.App .__line{
+.App > .__line {
   display: flex;
   margin-left: 10px;
   margin-right: 10px;
   justify-content: center;
 }
 
-.App h1{
-  font-family: Nunito, sans-serif; 
+.App > h1 {
+  font-family: Nunito, sans-serif;
   text-align: center;
   font-size: 40px;
-	line-height: 65px;
+  line-height: 65px;
 }
 
-.App button._button{
+.App > button._button {
   border: none;
-  background-color: #006A71;
+  background-color: #006a71;
   font-family: Roboto, sans-serif;
   font-weight: bold;
   font-size: 30px;
@@ -40,10 +40,9 @@
   margin-bottom: 150px;
 }
 
-.App p._p{
-  font-family: Roboto, sans-serif; 
+.App > p._p {
+  font-family: Roboto, sans-serif;
   text-align: center;
-  font-size: 22px;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  font-size: 1.3em;
+  margin: 5%;
 }

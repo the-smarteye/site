@@ -10,19 +10,21 @@
   border: 1px solid #d3de32;
   border-radius: 20px;
   text-align: center;
+  background-size: cover;
 }
 
-.card .__header {
+.card > .__header {
   background-color: #cbeaed;
   border-radius: 20px;
-  padding: 2%;
-  max-height: 45vh;
-  min-height: 45vh;
+  padding: 5%;
+  margin: auto;
+  max-height: 30vh;
+  min-height: 30vh;
 }
 
-.card .__imgA {
-  padding-top: 3%;
-  margin: auto;
+.card > .__imgA {
+  margin-left: auto;
+  margin-right: auto;
   width: 83%;
 }
 /* 
@@ -52,4 +54,35 @@
   font-size: 1em;
   text-align: center;
   margin: 8% 5% 5% 5%;
+}
+
+/* responsividade */
+
+@media only screen and (min-width: 2000px) {
+  /* for sumo sized (mac) screens */
+}
+
+@media only screen and (min-width: 1440px) {
+  /* styles for browsers larger than 1440px; */
+}
+
+@media only screen and (min-width: 960px) {
+  /* styles for browsers larger than 960px; */
+}
+
+@media only screen and (device-width: 768px) {
+  /* default iPad screens */
+}
+
+@media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+}
+
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* For portrait layouts only */
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* For landscape layouts only */
 }
