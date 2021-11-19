@@ -6,16 +6,16 @@ import Menu from "./components/Header";
 import About from "./components/About";
 import Contacts from "./components/Contacts";
 import BackToStart from "./components/BackToStart";
-import setup from "./assets/undraw_Website_setup_re_d4y9.svg";
-import circuit from "./assets/undraw_circuit_board_4c4d.svg";
-import VictoriaIris from "./assets/Victoria Íris.jpg";
-import LeonardoCasillo from "./assets/Leonardo Casillo.jpg";
-import LeonardoFranca from "./assets/Leonardo França.jpg";
-import MiltonMendes from "./assets/Milton Mendes.jpg";
-import RogerioFernandes from "./assets/Rogério Fernandes.jpg";
-import setas from "./assets/Setas.png";
-import data from "./assets/undraw_Data_trends_re_2cdy.svg";
-import collaboration from "./assets/undraw_real_time_collaboration_c62i.svg";
+import setup from "./assets/servicos/undraw_Website_setup_re_d4y9.svg";
+import circuit from "./assets/servicos/undraw_circuit_board_4c4d.svg";
+import VictoriaIris from "./assets/equipe/VictoriaÍris.jpg";
+import LeonardoCasillo from "./assets/equipe/LeonardoCasillo.jpg";
+import LeonardoFranca from "./assets/equipe/LeonardoFrança.jpg";
+import MiltonMendes from "./assets/equipe/MiltonMendes.jpg";
+import RogerioFernandes from "./assets/equipe/RogérioFernandes.jpg";
+// import setas from "./assets/Setas.png";
+import data from "./assets/servicos/undraw_Data_trends_re_2cdy.svg";
+import collaboration from "./assets/servicos/undraw_real_time_collaboration_c62i.svg";
 
 function App() {
   return (
@@ -47,7 +47,7 @@ function App() {
           Média de pessoas por hora durante o dia."
           />
         </div>
-        <button className="_button">Mais</button>
+        {/* <button className="_button">Mais</button> */}
         <h1>Equipe</h1>
         <p className="_p" id="members">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -81,7 +81,7 @@ function App() {
             description="Lorem Ipsum"
           />
         </div>
-        <button
+        {/* <button
           style={{
             border: "none",
             backgroundColor: "transparent",
@@ -92,7 +92,7 @@ function App() {
           }}
         >
           <img src={setas} alt="" />
-        </button>
+        </button> */}
         <Contacts />
         <BackToStart />
       </div>
