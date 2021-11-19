@@ -1,9 +1,9 @@
 import "./index.css";
 import SocialMedias from "./SocialMedias";
-import instagram from "../../assets/instagram.svg";
-import facebook from "../../assets/facebook.svg";
-import whatsapp from "../../assets/whatsapp.svg";
-import linkedin from "../../assets/linkedin.svg";
+import instagram from "../../assets/sociais/instagram.svg";
+// import facebook from "../../assets/sociais/facebook.svg";
+import whatsapp from "../../assets/sociais/whatsapp.svg";
+import linkedin from "../../assets/sociais/linkedin.svg";
 
 import maps from "../../assets/maps.png";
 
@@ -33,7 +33,7 @@ const Contacts = () => {
 
 					<div className="socialmedias">
 						<SocialMedias icon={instagram} title="Instagram" />
-						<SocialMedias icon={facebook} title="Facebook" />
+						{/* <SocialMedias icon={facebook} title="Facebook" /> */}
 						<SocialMedias icon={whatsapp} title="WhatsApp" />
 						<SocialMedias icon={linkedin} title="LinkedIn" />
 					</div>

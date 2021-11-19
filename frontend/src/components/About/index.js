@@ -1,10 +1,10 @@
 import "./index.css";
-import blured from "../../assets/blured.png";
+import blured from "../../assets/sobre/blured.png";
 import Group from "./Group";
-import knowledge from "../../assets/inteligencia.png";
-import safety from "../../assets/seguranca-de-dados.png";
-import distance from "../../assets/mantenha-distancia.png";
-import smartCity from "../../assets/cidade-inteligente.png";
+import knowledge from "../../assets/sobre/inteligencia.png";
+import safety from "../../assets/sobre/seguranca-de-dados.png";
+import distance from "../../assets/sobre/mantenha-distancia.png";
+import smartCity from "../../assets/sobre/cidade-inteligente.png";
 
 const About = () => {
 	return (
@@ -37,7 +37,7 @@ const About = () => {
 				<div>
 					<Group
 						icon={smartCity}
-						title="Plataforma RT"
+						title="Plataforma em Tempo Real"
 						text="Tecnologias de Cidades Inteligentes são úteis dentro e fora de crises como essa." />
 					<Group
 						icon={safety}
