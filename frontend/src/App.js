@@ -50,9 +50,9 @@ function App() {
         {/* <button className="_button">Mais</button> */}
         <h1>Equipe</h1>
         <p className="_p" id="members">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation.
+          O Smarteye conta com uma equipe com um amplo leque de expertises para suprir as 
+          necessidades da proposta, entre elas inteligencia artificial, IoT , manejo ambiental e 
+          desenvolvimento.
         </p>
         <div className="__line">
           <Avatar
