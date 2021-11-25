@@ -24,3 +24,4 @@ yarn-error.log*
 
 # adicionando exclusões
 package-lock.json
+!.env

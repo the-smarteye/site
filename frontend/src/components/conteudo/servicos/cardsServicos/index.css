@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+  #cardServicos {
+    padding-bottom: 5%;
+  }
+}
+
+#cardServicos > .card {
+  border-color: #d3de32;
+  border-radius: 1rem;
+}
+
+#cardServicos > .card > .card-header {
+  background-color: #cbeaed;
+  border-radius: 1rem !important;
+  border-color: #cbeaed;
+}
+
+#cardServicos > .card > .card-img-top {
+  border-radius: 1rem;
+}
+
+#cardServicos > .card > .card-footer {
+  align-items: center;
+  border: none;
+  text-align: center;
+  background-color: transparent;
+}
+
+#cardServicos > .card > .card-footer > button {
+  background-color: #006a71;
+  border-color: #006a71;
+  font-family: NunitoBold, sans-serif;
+  display: none;
+}

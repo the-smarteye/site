@@ -1,0 +1,53 @@
+.group {
+  display: flex;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 44%;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .group {
+    width: 100%;
+  }
+}
+
+.group > .icon {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: solid 1px #d3de32;
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.group > .icon > img {
+  width: 70%;
+}
+
+.group > .content {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 80%;
+  margin: auto;
+}
+
+.group > .content > h2 {
+  margin-top: 0;
+  font-family: NunitoBold, sans-serif;
+  font-weight: bold;
+}
+
+.group > .content > .text {
+  text-align: left;
+  font-family: RobotoRegular, sans-serif;
+  line-height: 1.5rem;
+  margin: auto;
+}
