@@ -1,0 +1,72 @@
+#linhaUm {
+  align-items: center;
+  text-align: center;
+  font-family: NunitoBold, sans-serif;
+}
+
+#linhaDois {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  font-family: RobotoRegular, sans-serif;
+}
+
+#linhaDois > #colUmLinhaDois > h6 {
+  font-family: NunitoBold, sans-serif !important;
+}
+
+#linhaDois > #mapaLocalizacao > h6 {
+  font-family: NunitoBold, sans-serif !important;
+}
+
+#mapaLocalizacao {
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  vertical-align: middle;
+}
+
+iframe {
+  width: -webkit-fill-available;
+}
+
+#formContato {
+  border: 1px solid #d3de32;
+  margin: auto;
+  align-items: center;
+  padding: 2%;
+  text-align: justify;
+  border-radius: 1rem;
+}
+
+#formContato > form > .row > .col-sm-12 > input {
+  border-color: #006a71;
+  border-radius: 0.5rem;
+}
+
+#formContato > form > .row > .col-sm-12 > textarea {
+  border-color: #006a71;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  #colUmLinhaDois {
+    padding-bottom: 5%;
+  }
+}
+
+#colBotaoForm {
+  text-align: center;
+  align-items: center;
+}
+
+#btnEnviarForm {
+  background-color: #006a71;
+  margin: auto;
+  border-color: #006a71;
+  padding-left: 10%;
+  padding-right: 10%;
+  border-radius: 0.5rem;
+}
