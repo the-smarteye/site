@@ -34,9 +34,9 @@ const Rodape = () => {
               <FontAwesomeIcon icon={faLinkedinIn} />
             </a>
 
-            <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button" target="_blank" rel="noopener noreferrer">
+            {/* <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faWhatsapp} />
-            </a>
+            </a> */}
           </section>
         </div>
 
