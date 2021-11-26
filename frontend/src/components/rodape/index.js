@@ -22,15 +22,16 @@ const Rodape = () => {
           </div>
 
           <section className="mb-4">
-            <a className="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/the_smarteye/" role="button" target="_blank">
+            <a className="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/the_smarteye/" 
+              role="button" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
 
-            <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button" target="_blank">
+            <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedinIn} />
             </a>
 
-            <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button" target="_blank">
+            <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faWhatsapp} />
             </a>
           </section>
