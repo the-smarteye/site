@@ -10,7 +10,7 @@ const Contato = () => {
   }
 
   return (
-    <Container>
+    <Container id="contatos">
       <Row id="linhaUm">
         <Col xs="12">
           <h1>Contatos</h1>

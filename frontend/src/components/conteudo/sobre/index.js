@@ -12,7 +12,7 @@ import imgQuatro from '../../../assets/imagens/sobre/confiabilidade.png';
 
 const Sobre = () => {
   return (
-      <Container>
+      <Container id="sobre">
         <Row id="linhaUm">
           <Col xs="12">
             <h1>Sobre</h1>

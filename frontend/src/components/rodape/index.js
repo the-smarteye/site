@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import logoFooter from '../../assets/imagens/logos/logoFooter.png';
 import "./index.css";
 
@@ -22,7 +22,7 @@ const Rodape = () => {
           </div>
 
           <section className="mb-4">
-          <a className="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/the_smarteye/" 
+            <a className="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/the_smarteye/" 
               role="button" target="_blank" rel="noopener noreferrer"
             >
               <FontAwesomeIcon icon={faInstagram} />
