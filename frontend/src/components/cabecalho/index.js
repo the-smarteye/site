@@ -13,11 +13,9 @@ const Cabecalho = () => {
 		window.onscroll = () => {
 			if (window.scrollY > 0) {
 				cabecalho.style.backgroundColor = "#006A71";
-        cabecalho.style.zIndex = 3;
 
 			} else {
 				cabecalho.style.backgroundColor = "transparent";
-        cabecalho.style.zIndex = 1;
 			}
 
 		}
