@@ -1,0 +1,17 @@
+#linhaUm {
+  align-items: center;
+  text-align: center;
+  font-family: NunitoBold, sans-serif;
+}
+
+#linhaDois {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  align-items: center;
+  text-align: center;
+}
+
+#linhaUm > #subtituloEquipe {
+  padding-top: 2%;
+  font-family: RobotoRegular, sans-serif;
+}

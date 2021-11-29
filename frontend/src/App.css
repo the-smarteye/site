@@ -1,49 +1,9 @@
 @font-face {
-  font-family: Roboto;
+  font-family: RobotoRegular;
   src: url(./assets/fontes/Roboto/Roboto-Regular.ttf);
 }
 
 @font-face {
-  font-family: Nunito;
+  font-family: NunitoBold;
   src: url(./assets/fontes/Nunito/Nunito-Bold.ttf);
-}
-
-.App{
-  text-align: center;
-}
-
-.App .__line{
-  display: flex;
-  margin-left: 10px;
-  margin-right: 10px;
-  justify-content: center;
-}
-
-.App h1{
-  font-family: Nunito, sans-serif; 
-  text-align: center;
-  font-size: 40px;
-	line-height: 65px;
-}
-
-.App button._button{
-  border: none;
-  background-color: #006A71;
-  font-family: Roboto, sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  cursor: pointer;
-  width: 235px;
-  height: 60px;
-  border-radius: 15px;
-  margin-bottom: 150px;
-}
-
-.App p._p{
-  font-family: Roboto, sans-serif; 
-  text-align: center;
-  font-size: 22px;
-  margin-top: 80px;
-  margin-bottom: 80px;
 }

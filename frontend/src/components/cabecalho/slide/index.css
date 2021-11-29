@@ -1,0 +1,27 @@
+.carousel-item > img {
+  filter: brightness(68%);
+  width: 100%;
+}
+
+.carousel-indicators {
+  z-index: 1 !important;
+}
+
+.carousel-indicators > button {
+  text-align: inherit;
+  color: transparent;
+}
+
+#slides {
+  width: 100%;
+  height: 49vw;
+}
+
+.carousel-caption > h3 {
+  text-align: left;
+}
+
+.carousel-caption > p {
+  padding-bottom: 10%;
+  text-align: left;
+}
