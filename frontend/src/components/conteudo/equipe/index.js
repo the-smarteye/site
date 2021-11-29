@@ -13,7 +13,7 @@ import rogerioFernandes from "../../../assets/imagens/equipe/RogerioFernandes.jp
 const Equipe = () => {
 
   return (
-    <Container>
+    <Container id="equipe">
       <Row id="linhaUm">
         <Col xs="12">
           <h1>Equipe</h1>

@@ -14,6 +14,11 @@ const Ul = styled.ul`
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
+  a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+
   @media (max-width: 768px) {
     flex-flow: column nowrap;
     background-color: #006A71;
@@ -35,10 +40,10 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <li>Sobre</li>
-      <li>Serviços</li>
-      <li>Equipe</li>
-      <li>Contatos</li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#equipe">Equipe</a></li>
+      <li><a href="#contatos">Contatos</a></li>
     </Ul>
   )
 }
